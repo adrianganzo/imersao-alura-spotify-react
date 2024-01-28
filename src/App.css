@@ -1,11 +1,5 @@
 body {
-  background-color: #000;
+  background-color: #222;
   font-family: "DM Sans", sans-serif;
-}
-
-.main-container {
-  max-width: 80vw;
-  height: 100vh;
-  margin-left: 320px;
-  margin-right: 56px;
+  color: #fff;
 }

@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import LogoSpotify from "../../assets/icons/logo-spotify.png";
 import "./Sidebar.css";
 
-const Sidebar = () => {
+export default function Sidebar() {
   return (
     <div className="sidebar">
       <nav className="sidebar__navigation">
@@ -62,6 +62,4 @@ const Sidebar = () => {
       </div>
     </div>
   );
-};
-
-export default Sidebar;
+}
